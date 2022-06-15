@@ -40,11 +40,6 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.reset;
 
 /**
- * Tests for {@link Banner} and its usage by {@link SpringApplication}.
- *
- * @author Phillip Webb
- * @author Michael Stummvoll
- * @author Michael Simons
  */
 @ExtendWith({ MockitoExtension.class, OutputCaptureExtension.class })
 class BannerTests {
