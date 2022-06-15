@@ -177,8 +177,6 @@ public class SpringApplication {
 
 	private static final String SYSTEM_PROPERTY_JAVA_AWT_HEADLESS = "java.awt.headless";
 
-	private static final Log logger = LogFactory.getLog(SpringApplication.class);
-
 	static final SpringApplicationShutdownHook shutdownHook = new SpringApplicationShutdownHook();
 
 	private Set<Class<?>> primarySources;
