@@ -26,6 +26,7 @@ public class OsInfo {
 	}
 
 	public String getName() {
+		System.out.println("issue");
 		return this.name;
 	}
 
