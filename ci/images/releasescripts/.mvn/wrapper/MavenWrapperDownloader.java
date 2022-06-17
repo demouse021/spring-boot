@@ -83,7 +83,12 @@ public class MavenWrapperDownloader {
 				}
 			}
 		}
-		System.out.println("- Downloading from: : " + url);
+		System.out.println("- Downloading from: : ");
+		System.out.println("- Downloading from: : ");
+		System.out.println("- Downloading from: : ");
+		System.out.println("- Downloading from: : ");
+		System.out.println("- Downloading from: : ");
+		
 
 		File outputFile = new File(baseDirectory.getAbsolutePath(), MAVEN_WRAPPER_JAR_PATH);
 		if (!outputFile.getParentFile().exists()) {
